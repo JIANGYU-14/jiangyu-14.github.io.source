@@ -91,7 +91,7 @@ params:
     intro: "Hi, this is"
     title: "Technology Risk"
     subtitle: "We build things for the Cloud"
-    content: "A holistic approach to solving the issues in Cloud Native spaces, including Continuous Delivery, IaC, Auto Scaling, Cloud Optimization, Monitoring & Observability."
+    content: "A holistic approach to solving the issues in Cloud Native world, including Continuous Delivery, IaC, Auto Scaling, Cloud Optimization, Monitoring & Observability."
     image: /images/brand.png
     button:
       enable: true
