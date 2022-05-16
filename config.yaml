@@ -1,0 +1,354 @@
+baseURL: "https://jiangyu-14.github.io"
+languageCode: "en-us"
+title: "Technology Risk"
+theme: hugo-profile
+
+Paginate: 3
+disqusShortname: gurusabarish
+googleAnalytics: G-DWJJVE27WD
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  #main:
+    #- identifier: blog
+    #  name: Blog
+    #  title: Blog posts
+    #  url: /blogs
+    #  weight: 1
+
+    #Dropdown menu
+    #- identifier: dropdown
+     # title: Example dropdown menu
+     # name: Dropdown
+     # weight: 2
+    #- identifier: dropdown1
+     # title: example dropdown 1
+     # name: example 1
+     # url: /#
+     # parent: dropdown
+     # weight: 1
+    #- identifier: dropdown2
+     # title: example dropdown 2
+     # name: example 2
+     # url: /#
+     # parent: dropdown
+     # weight: 2
+
+params:
+  title: "Technology Risk"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/brand.png"
+
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, this is"
+    title: "Technology Risk"
+    subtitle: "We build things for the Cloud"
+    content: "A holistic approach to solving the issues in Cloud Native spaces, including Continuous Delivery, IaC, Auto Scaling, Cloud Optimization, Monitoring & Observability."
+    image: /images/brand.png
+    button:
+      enable: true
+      name: "More on Github"
+      url: "https://github.com/alipay"
+    #socialLinks:
+      #fontAwesomeIcons:
+      #  - icon: fab fa-github
+      #    url: https://example.com
+      #  - icon: fab fa-twitter
+      #    url: https://example.com
+      #customIcons:
+      #  - icon: /images/brand.png
+      #    url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Us"
+    image: "/images/brand.png"
+    content: |-
+            <div style="text-align: justify;">Team members from <a href="https://www.antgroup.com/en">Ant Group</a>, In 2015, Ant formally established a technical risk department to consolidate its disaster recovery capabilities and build a capital security prevention and control system. In 2016, the department set up the first SRE team in China, and began to comprehensively carry out work such as automatic fault location, adaptive disaster recovery, gray-scale environment construction, financial security immunity, and refined high availability. Up to now, the Technical Risk Department has achieved milestones such as Yuntong Future, the construction of five centers in three places for disaster recovery. Currently, the department is moving towards building a digital operation management system that drives continuous improvement in risk, efficiency and cost.</div><br>
+    skills:
+      enable: false
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+
+  # Experience, now Solutions
+  experience:
+    enable: true
+    items:
+      - job: "Cloud Development"
+        company: "Cloud Development"
+        companyUrl: "https://example.com"
+        #date: "Jan 2022 - present"
+        featuredLink:
+          enable: true
+          name: "CNCF Definition"
+          url: "https://landscape.cncf.io/guide#app-definition-and-development--continuous-integration-delivery"
+        info:
+          enable: false
+        content: |
+            <div style="text-align: justify;">Continuous integration (CI) and continuous delivery (CD) tools enable fast and efficient development with embedded quality assurance. CI automates code changes by immediately building and testing the code, ensuring it produces a deployable artifact. CD goes one step further and pushes the artifact through the deployment phases.</div>
+            
+            - Smart Unit 
+            - Ant Codespaces
+            - Corgi
+      - job: "Continuous Delivery"
+        company: "Continuous Delivery"
+        companyUrl: "https://example.com"
+        #date: "Sep 2020 - Dec 2021"
+        featuredLink:
+          enable: true
+          name: CNCF Definition
+          url: "https://landscape.cncf.io/guide#provisioning--automation-configuration"
+        info:
+          enable: false
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |
+          <div style="text-align: justify;">Automation and configuration tools speed up the creation and configuration of compute resources (virtual machines, networks, firewall rules, load balancers, etc.). Tools in this category either handle different parts of the provisioning process or try to control everything end-to-end. Most provide the ability to integrate with other projects and products in the space.</div>
+          
+          - Inststub
+          - SQLess
+      - job: "Optimization"
+        company: "Optimization"
+        companyUrl: "https://example.com"
+        #date: "Jan 2020 - Aug 2020"
+        info:
+          enable: false
+        featuredLink:
+          enable: true
+          name: CNCF Definition
+          url: "https://landscape.cncf.io/card-mode?category=continuous-optimization&grouping=category"
+        content: |
+          Cloud cost optimization (CCO) is a technique of running cloud native applications effectively, at minimal possible cost, without affecting the health of the services, it is continuously delivering value with the effective utilization of cloud resources.
+          - TMastero
+          - Forklift
+      - job: "Monitoring and Observability"
+        company: "Monitoring and Observability"
+        companyUrl: "https://example.com"
+        #date: "June 2017 - Nov 2019"
+        featuredLink:
+          enable: true
+          name: CNCF Definition
+          url: "https://landscape.cncf.io/guide#observability-and-analysis--monitoring"
+        info:
+          enable: false
+        content: |
+          <div style="text-align: justify;">Monitoring refers to instrumenting an app to collect, aggregate, and analyze logs and metrics to improve our understanding of its behavior. While logs describe specific events, metrics are a measurement of a system at a given point in time — they are two different things but both necessary to get the full picture of your system's health. Monitoring includes everything from watching disk space, CPU usage, and memory consumption on individual nodes to doing detailed synthetic transactions to see if a system or application is responding correctly and in a timely manner. There are a number of different approaches to monitor systems and applications.</div>
+          
+          - Holoinsight
+          - Inspect Risk
+      
+  # Education, now Projects
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "Smart Unit"
+        school:
+          name: "An intelligent unit test case automatic generation product, which can help developers automatically generate and continuously operate unit test cases, improve the coverage of basic code."
+          # url: "https://example.org"
+        # date: "2013 - 2015"
+        Key: "#Unit Test, #Automation"
+        #content: |-
+          #I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          #- [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          #- Face mask detection using a single convolutional neural network.
+          #Extracurricular Activities
+            #- Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            #- Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "Website"
+          url: "https://example.com"
+      - title: "Ant Codespace"
+        school:
+          name: "Ant Codespaces is a code-centric, professional and efficient cloud R&D platform. Provide you with an integrated development environment on the cloud. You do not need to download, install, and configure the environment. You can realize the collaborative work of coding, building, debugging, and code understanding by opening a browser. At present, Ant Codespaces supports major programming languages such as Node.js, Java, C/C++, Go, HTML, CSS, etc., to meet various research and development needs."
+        featuredLink:
+          enable: false
+          name: "Website"
+          url: "https://example.com"
+      - title: "Corgi"
+        school:
+          name: "Corgi is an online program analysis service that helps you manage the dependencies and licenses of your project. You can download and use the client to analyze your project and generate an SBOM report. You can also use Corgi as a service via our OpenAPI."
+        featuredLink:
+          enable: false
+          name: "Website"
+          url: "https://example.com"
+      - title: "Inststub"
+        school:
+          name: "Inststub is a simulation platform built by the intelligent-engine testing team from Ant Group, which can simulate behaviors of real institutes, and help developers and testers to build an efficient joint debugging system between internal platforms and external institutes. it's also capable of providing serivces like compression testing, risk control management, and normalized drill to help discovering exceptions and errors of programs in the early stage."
+        featuredLink:
+          enable: true
+          name: "Website"
+          url: "https://simpro.info/"
+      - title: "TMastero"
+        school:
+          name: "TMaestro is a product that has been polished within Ant Group for many years, and has been used in 800+ applications within Ant Group, which has great benefits in terms of stability assurance and physical resource saving. The TMaestro R&D team is from the core technical team of Ant Group."
+        featuredLink:
+          enable: true
+          name: "Website"
+          url: "https://www.5tuning.com/"
+      - title: "Forklift"
+        school:
+          name: "Forklift is focused on providing the Application-driven Kubernetes cost optimization, powered by machine learning engine to ouput the most informative decision to Scaling, Reblancing and Right-sizing cluster infrastructure. It is designed to let you take full advantage of the cloud with cost-effective resource provisioning while ensure the highest availability."
+        featuredLink:
+          enable: true
+          name: "Website"
+          url: "https://www.4klift.cloud/"
+      - title: "SQLess"
+        school:
+          name: "SQLess is a SQL life cycle management product that provides SQL closed-loop capabilities throughout all stages of R&D, iteration, operation and maintenance, and continuous optimization, including core functions such as SQL risk prevention and control, SQL quality insight, SQL automatic optimization, and schema automatic evolution."
+        featuredLink:
+          enable: false
+          name: "Website"
+          url: "https://www.4klift.cloud/"
+      - title: "Holoinsight"
+        school:
+          name: "HoloInsigt is a full-featured monitoring product for the cloud-native era. It includes basic data such as metrics, logs, traces, and events, and provides functions such as aggregated computing, visualization, and alarming of monitoring data. Based on the urgent need for digital transformation of enterprises, automated monitoring tools are used to realize digital management of enterprises and promote the efficient operation of daily operation and maintenance work, which has outstanding commercial value."
+        featuredLink:
+          enable: true
+          name: "Website"
+          url: "https://chenshuo666666.wixsite.com/website"
+      - title: "Risk Inspect"
+        school:
+          name: "The inspection platform aims to conduct a comprehensive inspection of system risks to ensure that risks are discovered and resolved in advance, thereby ensuring the stability and high availability of the system. At present, the scope of inspection is not limited to: database inspection, server inspection, capacity, middleware, security, etc."
+        featuredLink:
+          enable: true
+          name: "Website"
+          url: "https://823677802.wixsite.com/inspect"
+
+  # Achievements
+  achievements:
+    enable: false
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: false
+    items:
+      - title: Hugo Profile
+        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Image Converter
+        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        # badges:
+        #   - "Django"
+        #   - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/converter
+
+      - title: Hugo Profile V2
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: true
+    content: Whether you have a question or just want to say hi, we’d love to chat with you!
+    email: wangjiangyu.wjy@antgroup.com
+    btnName: Mail Us
+
+  footer:
+    # recentPosts: false
+    socialNetworks:
+      github: https://github.com
+      #linkedin: https://linkedin.com
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
