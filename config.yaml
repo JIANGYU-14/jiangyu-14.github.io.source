@@ -40,7 +40,7 @@ Menus:
 
 params:
   title: "Technology Risk"
-  description: Text about my cool site
+  description: A digital management system that drives continuous improvement in risk control, operation efficiency and cost optimization.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/images/brand.png"
 
@@ -113,7 +113,7 @@ params:
     title: "About Us"
     image: "/images/brand.png"
     content: |-
-            <div style="text-align: justify;">Team members from <a href="https://www.antgroup.com/en">Ant Group</a>, In 2015, Ant formally established a technical risk department to consolidate its disaster recovery capabilities and build a capital security prevention and control system. In 2016, the department set up the first SRE team in China, and began to comprehensively carry out work such as automatic fault location, adaptive disaster recovery, gray-scale environment construction, financial security immunity, and refined high availability. Up to now, the Technical Risk Department has achieved milestones such as Yuntong Future, the construction of five centers in three places for disaster recovery. Currently, the department is moving towards building a digital operation management system that drives continuous improvement in risk, efficiency and cost.</div><br>
+            <div style="text-align: justify;">Team members from <a href="https://www.antgroup.com/en">Ant Group</a>, In 2015, Ant formally established a technical risk department to consolidate its disaster recovery capabilities and build a capital security prevention and control system. In 2016, the department set up the first SRE team in China, and began to comprehensively carry out work such as automatic fault location, adaptive disaster recovery, gray-scale environment construction, financial security immunity, and refined high availability. Up to now, the Technical Risk Department has achieved milestones such as Yuntong Future, the construction of five centers in three places for disaster recovery. Currently, the department is moving towards building a digital management system that drives continuous improvement in risk control, operation efficiency and cost optimization.</div><br>
     skills:
       enable: false
       title: "Here are a few technologies I've been working with recently:"
@@ -329,7 +329,7 @@ params:
         featured:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
-        # badges:
+        # badges:digital management system that drives continuous improvement in risk control, operation efficiency and cost optimizationabout
         #   - "Hugo"
         #   - "Bootstrap"
         #   - "Javascript"
