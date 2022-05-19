@@ -212,7 +212,7 @@ params:
         featuredLink:
           enable: true
           name: "Website"
-          url: "https://example.com"
+          url: "https://alohayuzhou.wixsite.com/smartunit"
       - title: "Ant Codespace"
         school:
           name: "Ant Codespaces is a code-centric, professional and efficient cloud R&D platform. Provide you with an integrated development environment on the cloud. You do not need to download, install, and configure the environment. You can realize the collaborative work of coding, building, debugging, and code understanding by opening a browser. At present, Ant Codespaces supports major programming languages such as Node.js, Java, C/C++, Go, HTML, CSS, etc., to meet various research and development needs."
@@ -233,7 +233,7 @@ params:
         featuredLink:
           enable: true
           name: "Website"
-          url: "https://simpro.info/"
+          url: "https://traasforklift.wixsite.com/inststub"
       - title: "TMastero"
         school:
           name: "TMaestro is a product that has been polished within Ant Group for many years, and has been used in 800+ applications within Ant Group, which has great benefits in terms of stability assurance and physical resource saving. The TMaestro R&D team is from the core technical team of Ant Group."
@@ -329,7 +329,7 @@ params:
         featured:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
-        # badges:digital management system that drives continuous improvement in risk control, operation efficiency and cost optimizationabout
+        # badges:
         #   - "Hugo"
         #   - "Bootstrap"
         #   - "Javascript"
