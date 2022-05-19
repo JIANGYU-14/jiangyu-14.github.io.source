@@ -342,7 +342,7 @@ params:
     enable: true
     content: Whether you have a question or just want to say hi, we’d love to chat with you!
     email: wangjiangyu.wjy@antgroup.com
-    btnName: Mail Us
+    btnName: wangjiangyu.wjy@antgroup.com
 
   footer:
     # recentPosts: false
